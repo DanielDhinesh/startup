@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { 
   Headphones, 
   DollarSign, 
@@ -22,7 +22,7 @@ export default function WhyChooseUs() {
     {
       icon: <DollarSign style={{ width: '22px', height: '22px', color: '#f59e0b' }} />,
       title: 'Affordable Pricing & Zero Hidden Fees',
-      text: 'No high recurring commissions. TecqHub offers clear, transparent pricing built for small business budgets.'
+      text: 'No high recurring commissions. 2xtechnologies offers clear, transparent pricing built for small business budgets.'
     },
     {
       icon: <Clock style={{ width: '22px', height: '22px', color: '#8b5cf6' }} />,
@@ -41,7 +41,7 @@ export default function WhyChooseUs() {
           <div>
             <div className="badge" style={{ marginBottom: '0.85rem', background: 'rgba(56,189,248,0.1)', color: 'var(--accent-cyan)', border: '1px solid rgba(56,189,248,0.25)' }}>
               <Award style={{ width: '14px', height: '14px' }} />
-              <span>Why Shopkeepers Trust TecqHub</span>
+              <span>Why Shopkeepers Trust 2xtechnologies</span>
             </div>
 
             <h2 style={{ fontSize: 'clamp(1.8rem, 3.2vw, 2.8rem)', fontWeight: '800', marginBottom: '1rem', lineHeight: '1.2' }}>
@@ -49,7 +49,7 @@ export default function WhyChooseUs() {
             </h2>
 
             <p style={{ color: '#94a3b8', fontSize: '1rem', lineHeight: '1.65', marginBottom: '1.5rem' }}>
-              We understand the real challenges local business owners face — busy billing counters, inventory tracking errors, and missing out on local online customers. TecqHub delivers modern technology with personal service.
+              We understand the real challenges local business owners face — busy billing counters, inventory tracking errors, and missing out on local online customers. 2xtechnologies delivers modern technology with personal service.
             </p>
 
             <div className="responsive-form-row" style={{ paddingTop: '1.25rem', borderTop: '1px solid rgba(255,255,255,0.08)' }}>
@@ -94,3 +94,6 @@ export default function WhyChooseUs() {
     </section>
   );
 }
+
+
+

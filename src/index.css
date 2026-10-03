@@ -365,16 +365,15 @@ button {
   width: 100%;
   padding: 1.5rem 0;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: rgba(9, 13, 22, 0.75);
+  background-color: var(--bg-card);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
 }
 
 .site-header.scrolled {
   padding: 1rem 0;
-  background-color: rgba(9, 13, 22, 0.95);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: var(--shadow-card);
 }
 
 .nav-desktop-links {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { 
   X, 
   CheckSquare, 
@@ -77,7 +77,7 @@ export default function ClientInfoNoticeModal({ isOpen, onClose }) {
               <span>What We Need From You</span>
             </div>
             <h3 style={{ fontSize: '1.5rem', fontWeight: '800', color: '#fff', margin: 0 }}>
-              Founder Setup Checklist for TecqHub
+              Founder Setup Checklist for 2xtechnologies
             </h3>
           </div>
 
@@ -91,7 +91,7 @@ export default function ClientInfoNoticeModal({ isOpen, onClose }) {
 
         {/* Introduction */}
         <p style={{ color: '#94a3b8', fontSize: '0.92rem', lineHeight: '1.6', marginBottom: '1.5rem' }}>
-          Here is a quick checklist of details you can share with TecqHub whenever you're ready. Don't worry if you don't have everything right now — we have already put placeholder data so your website looks 100% complete!
+          Here is a quick checklist of details you can share with 2xtechnologies whenever you're ready. Don't worry if you don't have everything right now — we have already put placeholder data so your website looks 100% complete!
         </p>
 
         {/* Progress Bar */}
@@ -167,3 +167,6 @@ export default function ClientInfoNoticeModal({ isOpen, onClose }) {
     </div>
   );
 }
+
+
+

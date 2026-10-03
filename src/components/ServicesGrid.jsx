@@ -57,7 +57,7 @@ export default function ServicesGrid() {
   ];
 
   return (
-    <section id="services" className="py-12 md:py-16 relative bg-[#090d16]" style={{ paddingTop: '3rem', paddingBottom: '3rem', position: 'relative' }}>
+    <section id="services" className="py-12 md:py-16 relative" style={{ paddingTop: '3rem', paddingBottom: '3rem', position: 'relative', background: 'var(--bg-primary)' }}>
       <div className="container">
         
         {/* Header */}
@@ -69,8 +69,8 @@ export default function ServicesGrid() {
           <h2 style={{ fontSize: 'clamp(1.75rem, 3vw, 2.5rem)', fontWeight: '800', marginBottom: '0.5rem' }}>
             Everything Your Shop Needs to <span className="gradient-text">Grow & Modernize</span>
           </h2>
-          <p style={{ color: '#94a3b8', fontSize: '0.92rem', lineHeight: '1.5' }}>
-            High-speed POS billing, custom store websites, and WhatsApp automation by TecqHub under one roof.
+          <p style={{ color: 'var(--text-secondary)', fontSize: '0.92rem', lineHeight: '1.5' }}>
+            High-speed POS billing, custom store websites, and WhatsApp automation by 2xtechnologies under one roof.
           </p>
         </div>
 
@@ -86,16 +86,16 @@ export default function ServicesGrid() {
                 display: 'flex', 
                 flexDirection: 'column', 
                 justify: 'space-between',
-                border: '1px solid rgba(255,255,255,0.08)'
+                border: '1px solid var(--border-color)'
               }}
             >
               <div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.75rem' }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-                    <div style={{ padding: '0.45rem', borderRadius: '10px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)' }}>
+                    <div style={{ padding: '0.45rem', borderRadius: '10px', background: 'var(--bg-glass)', border: '1px solid var(--border-color)' }}>
                       {service.icon}
                     </div>
-                    <h3 style={{ fontSize: '1.05rem', fontWeight: '700', color: '#f8fafc', margin: 0, whiteSpace: 'nowrap' }}>
+                    <h3 style={{ fontSize: '1.05rem', fontWeight: '700', color: 'var(--text-primary)', margin: 0, whiteSpace: 'nowrap' }}>
                       {service.title}
                     </h3>
                   </div>
@@ -104,7 +104,7 @@ export default function ServicesGrid() {
                   </span>
                 </div>
 
-                <p style={{ color: '#94a3b8', fontSize: '0.82rem', lineHeight: '1.45', marginBottom: '0.85rem' }}>
+                <p style={{ color: 'var(--text-secondary)', fontSize: '0.82rem', lineHeight: '1.45', marginBottom: '0.85rem' }}>
                   {service.description}
                 </p>
 
@@ -113,7 +113,7 @@ export default function ServicesGrid() {
                   {service.tags.map((t, idx) => (
                     <span 
                       key={idx}
-                      style={{ fontSize: '0.68rem', color: '#cbd5e1', background: 'rgba(255,255,255,0.04)', padding: '0.15rem 0.45rem', borderRadius: '4px', border: '1px solid rgba(255,255,255,0.06)' }}
+                      style={{ fontSize: '0.68rem', color: 'var(--text-secondary)', background: 'var(--bg-glass)', padding: '0.15rem 0.45rem', borderRadius: '4px', border: '1px solid var(--border-color)' }}
                     >
                       ✓ {t}
                     </span>
@@ -136,3 +136,6 @@ export default function ServicesGrid() {
     </section>
   );
 }
+
+
+

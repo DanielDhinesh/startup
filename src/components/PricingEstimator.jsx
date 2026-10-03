@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { 
   Check, 
   Sparkles, 
@@ -15,7 +15,7 @@ export default function PricingEstimator() {
       period: 'one-time setup',
       description: 'Ideal for small retail stores & Kirana counters wanting fast, error-free billing.',
       features: [
-        'TecqPOS Express Billing',
+        '2xtechnologies Express Billing',
         'Thermal Printer Drivers',
         'GST & Non-GST Invoices',
         'Stock & Inventory Tracker',
@@ -164,3 +164,4 @@ export default function PricingEstimator() {
     </section>
   );
 }
+

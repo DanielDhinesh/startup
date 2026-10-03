@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { 
   Calculator, 
   ArrowRight
@@ -11,7 +11,7 @@ export default function ROICalculator() {
 
   // Calculations
   const manualTimePerDayMin = dailyBills * manualMinutesPerBill;
-  const automatedTimePerDayMin = dailyBills * 0.5; // TecqPOS takes ~30s per bill
+  const automatedTimePerDayMin = dailyBills * 0.5; // 2xtechnologies takes ~30s per bill
   
   const minutesSavedPerDay = manualTimePerDayMin - automatedTimePerDayMin;
   const hoursSavedPerMonth = Math.round((minutesSavedPerDay * 30) / 60);
@@ -163,3 +163,4 @@ export default function ROICalculator() {
     </section>
   );
 }
+

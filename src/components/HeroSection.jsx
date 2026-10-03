@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import {
   Sparkles,
   ArrowRight,
@@ -56,7 +56,7 @@ export default function HeroSection({ onOpenDemo }) {
 
             {/* Subheading */}
             <p style={{ fontSize: '1.05rem', color: '#94a3b8', marginBottom: '1.8rem', lineHeight: '1.65', maxWidth: '620px' }}>
-              Eliminate slow manual billing, inventory confusion, and missing online presence. <strong style={{ color: '#f8fafc' }}>TecqHub</strong> provides fast billing software, high-converting websites, and automated WhatsApp tech built specifically for local retailers, restaurants, and SMBs.
+              Eliminate slow manual billing, inventory confusion, and missing online presence. <strong style={{ color: '#f8fafc' }}>2xtechnologies</strong> provides fast billing software, high-converting websites, and automated WhatsApp tech built specifically for local retailers, restaurants, and SMBs.
             </p>
 
             {/* CTA Buttons */}
@@ -121,7 +121,7 @@ export default function HeroSection({ onOpenDemo }) {
                   <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#f59e0b' }}></div>
                   <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#10b981' }}></div>
                   <span style={{ fontSize: '0.78rem', fontWeight: '700', color: '#cbd5e1', marginLeft: '0.4rem', fontFamily: 'var(--font-heading)' }}>
-                    TecqPOS Express v2.4 (Live Preview)
+                    2xtechnologies Express v2.4 (Live Preview)
                   </span>
                 </div>
                 <span className="badge" style={{ fontSize: '0.68rem', padding: '0.15rem 0.5rem' }}>
@@ -209,7 +209,7 @@ export default function HeroSection({ onOpenDemo }) {
           <div className="glass-card" style={{ background: '#fff', color: '#0f172a', maxWidth: '350px', width: '100%', padding: '1.25rem', borderRadius: '16px', fontFamily: 'monospace', boxShadow: '0 25px 50px -12px rgba(0,0,0,0.5)' }}>
 
             <div style={{ textAlign: 'center', borderBottom: '1px dashed #cbd5e1', paddingBottom: '0.6rem', marginBottom: '0.6rem' }}>
-              <h3 style={{ fontSize: '1.1rem', fontWeight: '800', margin: 0 }}>TECQHUB SOLUTIONS</h3>
+              <h3 style={{ fontSize: '1.1rem', fontWeight: '800', margin: 0 }}>2xtechnologies SOLUTIONS</h3>
               <p style={{ fontSize: '0.72rem', color: '#64748b', margin: '2px 0' }}>SMB Billing & Tech Partner</p>
               <p style={{ fontSize: '0.68rem', color: '#94a3b8', margin: 0 }}>Date: {new Date().toLocaleDateString()}</p>
             </div>
@@ -252,3 +252,7 @@ export default function HeroSection({ onOpenDemo }) {
     </section>
   );
 }
+
+
+
+

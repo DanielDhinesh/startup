@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { 
   X, 
   Palette, 
@@ -63,7 +63,7 @@ export default function ColorPalettePickerModal({ isOpen, onClose, currentPalett
         </div>
 
         <p style={{ color: '#94a3b8', fontSize: '0.85rem', lineHeight: '1.5', marginBottom: '1.25rem' }}>
-          Test different color aesthetics live on <strong>TecqHub</strong>. If you ever want to switch back, click <strong>"Revert to Original"</strong> anytime!
+          Test different color aesthetics live on <strong>2xtechnologies</strong>. If you ever want to switch back, click <strong>"Revert to Original"</strong> anytime!
         </p>
 
         {/* Palettes Selection */}
@@ -134,3 +134,6 @@ export default function ColorPalettePickerModal({ isOpen, onClose, currentPalett
     </div>
   );
 }
+
+
+

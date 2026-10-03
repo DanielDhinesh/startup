@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { 
   Monitor, 
   Smartphone, 
@@ -91,7 +91,7 @@ export default function InteractiveSoftwareDemo() {
             Test Our <span className="gradient-text">Powerful Tech</span> Live in Action
           </h2>
           <p style={{ color: '#94a3b8', fontSize: '1rem', lineHeight: '1.6' }}>
-            Experience how our billing software, custom website templates, and WhatsApp tools operate. Click, test, and see why shopkeepers love TecqHub!
+            Experience how our billing software, custom website templates, and WhatsApp tools operate. Click, test, and see why shopkeepers love 2xtechnologies!
           </p>
         </div>
 
@@ -103,7 +103,7 @@ export default function InteractiveSoftwareDemo() {
             style={{ padding: '0.65rem 1.25rem', fontSize: '0.88rem' }}
           >
             <Receipt style={{ width: '16px', height: '16px' }} />
-            <span>1. TecqPOS Billing</span>
+            <span>1. 2xtechnologies Billing</span>
           </button>
 
           <button
@@ -125,7 +125,7 @@ export default function InteractiveSoftwareDemo() {
           </button>
         </div>
 
-        {/* TAB 1: TECQPOS SOFTWARE SIMULATOR */}
+        {/* TAB 1: 2xtechnologies SOFTWARE SIMULATOR */}
         {activeTab === 'pos' && (
           <div className="glass-card" style={{ padding: '1.25rem', borderRadius: '20px', border: '1px solid rgba(255,255,255,0.1)' }}>
             
@@ -136,7 +136,7 @@ export default function InteractiveSoftwareDemo() {
                   <Receipt style={{ width: '20px', height: '20px' }} />
                 </div>
                 <div>
-                  <h3 style={{ fontSize: '1.05rem', fontWeight: '700', margin: 0, color: '#fff' }}>TecqPOS Express Billing</h3>
+                  <h3 style={{ fontSize: '1.05rem', fontWeight: '700', margin: 0, color: '#fff' }}>2xtechnologies Express Billing</h3>
                   <span style={{ fontSize: '0.7rem', color: '#10b981', fontWeight: '600' }}>● System Online • Thermal Printer Sync</span>
                 </div>
               </div>
@@ -360,7 +360,7 @@ export default function InteractiveSoftwareDemo() {
                   <div style={{ width: '7px', height: '7px', borderRadius: '50%', background: '#10b981' }}></div>
                 </div>
                 <div style={{ flex: 1, background: 'rgba(0,0,0,0.3)', padding: '0.15rem 0.5rem', borderRadius: '4px', fontSize: '0.7rem', color: '#94a3b8', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis' }}>
-                  https://demo-shop.tecqhub.com/{webType}
+                  https://demo-shop.2xtechnologies.com/{webType}
                 </div>
               </div>
 
@@ -437,7 +437,7 @@ export default function InteractiveSoftwareDemo() {
                   Instant Bills & Reminders Delivered directly to WhatsApp
                 </h3>
                 <p style={{ color: '#94a3b8', lineHeight: '1.6', fontSize: '0.92rem', marginBottom: '1.25rem' }}>
-                  Ditch expensive paper receipts! With TecqHub, every bill created on your POS automatically generates a branded receipt sent straight to your customer's WhatsApp.
+                  Ditch expensive paper receipts! With 2xtechnologies, every bill created on your POS automatically generates a branded receipt sent straight to your customer's WhatsApp.
                 </p>
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.65rem' }}>
@@ -461,14 +461,14 @@ export default function InteractiveSoftwareDemo() {
                 <div style={{ background: '#202c33', padding: '0.65rem', borderRadius: '10px', display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.85rem' }}>
                   <div style={{ width: '32px', height: '32px', borderRadius: '50%', background: '#34d399', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#000', fontWeight: 'bold', fontSize: '0.8rem' }}>TH</div>
                   <div>
-                    <h4 style={{ fontSize: '0.8rem', fontWeight: 'bold', color: '#fff', margin: 0 }}>TecqHub Billing Bot</h4>
+                    <h4 style={{ fontSize: '0.8rem', fontWeight: 'bold', color: '#fff', margin: 0 }}>2xtechnologies Billing Bot</h4>
                     <span style={{ fontSize: '0.62rem', color: '#34d399' }}>Official Verified Business</span>
                   </div>
                 </div>
 
                 <div style={{ background: '#005c4b', padding: '0.75rem', borderRadius: '10px 10px 10px 2px', color: '#fff', fontSize: '0.78rem', lineHeight: '1.4' }}>
                   <p style={{ margin: '0 0 0.4rem 0', fontWeight: 'bold' }}>🧾 Invoice #TH-4092</p>
-                  <p style={{ margin: 0 }}>Hello Rahul! Thank you for shopping at TecqHub Store. Here is your digital tax invoice for ₹1,240.</p>
+                  <p style={{ margin: 0 }}>Hello Rahul! Thank you for shopping at 2xtechnologies Store. Here is your digital tax invoice for ₹1,240.</p>
                   
                   <div style={{ marginTop: '0.5rem', background: 'rgba(0,0,0,0.2)', padding: '0.4rem', borderRadius: '6px', fontSize: '0.72rem' }}>
                     📄 <span>Invoice_TH4092.pdf</span>
@@ -485,3 +485,7 @@ export default function InteractiveSoftwareDemo() {
     </section>
   );
 }
+
+
+
+
